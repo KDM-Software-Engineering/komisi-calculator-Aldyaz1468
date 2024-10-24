@@ -10,6 +10,21 @@
 
 // TULIS SCRIPT KAMU DI SINI
 
+function calculateKomisi(nilaiKontrak) {
+  if (nilaiKontrak >= 5000000) {
+    return 5 / 100 * nilaiKontrak // 5 = 5% dari nilai kontrak
+  }
+
+  else if (nilaiKontrak >= 1000000) {
+    return nilaiKontrak = 100000
+  }
+
+  else {
+    return 0
+  }
+}
+
+console.log(calculateKomisi(14000000))
 
 
 // JANGAN HAPUS / UBAH SCRIPT DI BAWAH
